@@ -1,0 +1,17 @@
+{
+    "experiment_name": "deafult_experiment",
+    "dataset": {
+      "data_dir": "./dped/",
+      "img_size": 256,
+      "batch_size": 32,
+      "num_workers": 1
+    },
+    "experiment": {
+      "num_epochs": 1000,
+      "learning_rate": 2e-4
+    },
+    "model": {
+      "lambda": 20
+    }
+  }
+  
