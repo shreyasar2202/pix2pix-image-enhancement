@@ -1,0 +1,21 @@
+{
+    "experiment_name": "default_experiment",
+    "dataset": {
+      "data_dir": "../dped/",
+      "img_size": 256,
+      "batch_size": 8,
+      "num_workers": 1
+    },
+    "experiment": {
+      "num_epochs": 10,
+      "learning_rate": 2e-4
+    },
+    "model": {
+      "lambda": 100,
+      "type_of_loss":{
+            "L1":false,
+            "Perceptual":true
+        }
+    }
+  }
+  
